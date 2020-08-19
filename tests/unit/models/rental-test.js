@@ -5,7 +5,7 @@ module('Unit | Model | rental', function(hooks) {
   setupTest(hooks);
 
   test('it has the right type', function(assert) {
-  	let store = this.owner.lookup('service:store');
+    let store = this.owner.lookup('service:store');
     let rental = store.createRecord('rental', {
       id: 'grand-old-mansion',
       title: 'Grand Old Mansion',
